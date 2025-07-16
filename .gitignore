@@ -1,0 +1,64 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files.
+
+# IDE folders
+.vs/
+.idea/
+.vscode/
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish outputs
+wwwroot/
+
+# npm, yarn, pnpm dependencies
+node_modules/
+
+# Environment files
+*.env
+*.env.*
+
+# Others
+*.db
+*.sqlite
+*.pdb
+
+# Docker
+**/Dockerfile.*
+docker-compose.*
+docker-compose.override.yml
+
+# Coverage tools
+coverage/
+*.coverage
+*.coveragexml
+
+# Logs
+logs/
+*.log
+
+# Test Results
+TestRe
